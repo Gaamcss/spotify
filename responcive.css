@@ -57,11 +57,12 @@
           overflow-y: scroll;
           flex-wrap:wrap;
           width: 100%;
-          height: 71vh;
+          height: auto;
      }
      .poster01{
           /* background-color: red; */
-          width: 46%;
+          min-width: 150px;
+          max-width: 46vw;
           height: 35vh;
      }
      .sleeprap{
@@ -69,7 +70,8 @@
           flex-wrap: wrap;
      }
      .sleeppost{
-          width: 43%;
+          min-width: 150px;
+          max-width: 43vw;
           height: 35vh;
      }
      .futter{
